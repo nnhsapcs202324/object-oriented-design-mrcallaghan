@@ -19,6 +19,25 @@ public class FillInQuestion extends Question
      */
     
     /**
+     * Constructs a FillInQuesiton object with the specified text that contains the answer.
+     * 
+     * @param question the specified question text with the embedded answer.
+     */
+    public FillInQuestion(String question)
+    {
+        /*
+         * Explicitly call the Question class's constructor that takes in a single parameter.
+         *  Calling a superclass's constructor *must* be the firt line of code in a subclass constructor.
+         *  
+         *  If we don't explicitly call a superclass's constructor, Java will automatically call the 
+         *    superclass's default (i.e., no parameters) constructor if it can.
+         */
+        super(question);
+    }
+    
+    
+    
+    /**
      * This method overrides the setText method in the Question class.
      * 
      * Sets the the question text AND answer.
