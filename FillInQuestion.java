@@ -20,6 +20,17 @@ public class FillInQuestion extends Question
      * The text and answer instance variables are inherited from the Question class.
      */
     
+    /**
+     * Constructs a FIllInQuesiton object with the specified text that contains the answer.
+     * 
+     * @param question the specifeid quesiton text with the answer
+     */
+    public FillInQuestion(String question)
+    {
+        
+    }
+    
+    
     
     /**
      * This method overrides the setText method in the Question class.
