@@ -9,7 +9,10 @@ public class QuestionDemo
    {
       Scanner in = new Scanner(System.in);
 
-      Question q = null; // = new FillInQuestion("The inventor of Java is _James Gosling_.");
+      String text = "The inventor of Java is _James Gosling_.";
+      Question q = new FillInQuestion();
+      
+      q.setText(text);
 
       System.out.println( q );
       System.out.print("Your answer: ");

@@ -19,6 +19,24 @@ public class FillInQuestion extends Question
      * The text and answer instance variables are inherited from the Quesiton class.
      */
     
+    /**
+     * Constructs a FillInQuestion object with the specified text that contains the answer.
+     * 
+     * @param quesiton the specified quesiton text with the answer embedded
+     */
+    public FillInQuestion(String questionText)
+    {
+        
+        /*
+         * Explicitly call the Quesiton class's constructor taht takes a single parameter.
+         *  Calling a superclass's constructor *must* be the first line of the code in
+         *  the subclass's constructor.
+         *  
+         *  If we don't explicitly call a superclass's constructor, Java will automatically
+         *      call the superclass's default (i.e., no parameters) constructor if it can.
+         */
+        super(questionText);
+    }
     
     /*
      * This method overrides the setText method in the Question class.
