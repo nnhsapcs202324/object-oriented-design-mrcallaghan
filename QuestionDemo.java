@@ -10,9 +10,9 @@ public class QuestionDemo
       Scanner in = new Scanner(System.in);
       
       String text = "The inventor of Java is _James Gosling_.";
-      Question q = new FillInQuestion();
+      Question q = new FillInQuestion(text);
       
-      q.setText(text);
+      //q.setText(text);
 
       System.out.println( q );
       System.out.print("Your answer: ");
