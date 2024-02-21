@@ -49,6 +49,7 @@ public class Person implements Comparable<Person>
     @return < 0 if this person comes before, 0 if equal,
     > 0 if this person comes after
      */
+    @Override
     public int compareTo(Person other)
     {
         if(this.name.equals(other.name))
