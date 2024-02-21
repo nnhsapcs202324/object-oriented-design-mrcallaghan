@@ -40,6 +40,7 @@ public class PersonTester
         System.out.println( "First: " + firstPerson );
         System.out.println( "Last: " + lastPerson );
         
+        
         Collections.sort(people);
         System.out.println("\nAll people:");
         for(Person person : people)
